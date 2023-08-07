@@ -1,0 +1,12 @@
+# dev_dependencies:
+#   flutter_launcher_icons:
+
+flutter_launcher_icons:
+  android: true
+  adaptive_icon_background: "#f7f3e8"
+  adaptive_icon_foreground: "assets/icon/shake_torch_icon-transparentBG.png"
+  ios: true
+  image_path: "assets/icon/shake_torch_icon.png"
+  macos:
+    generate: true
+    image_path: "assets/icon/shake_torch_icon.png"

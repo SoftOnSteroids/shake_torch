@@ -36,7 +36,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   torch_controller: ^2.0.1
   shake: ^2.2.0
-  flutter_launcher_icons:
 
 dev_dependencies:
   flutter_test:
@@ -48,6 +47,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  
+  flutter_launcher_icons:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -90,11 +91,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-
-flutter_launcher_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/shake_torch_launcher/android/res/mipmap-xxxhdpi/shake_torch_launcher.png"
-  macos:
-    generate: true
-    image_path: "assets/shake_torch_launcher/android/res/mipmap-xxxhdpi/shake_torch_launcher.png"
